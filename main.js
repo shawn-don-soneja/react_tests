@@ -12,6 +12,11 @@ there must be something else though
 */
 //document.getElementById("testTwo").style.background = 'red';
 
+
+window.onload = function () {
+    document.getElementById("testTwo").style.background = 'yellow';
+};
+
 function myFunction(arg){
   arg.style.background = 'red';
 }
