@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel='stylesheet' ref='./style.css'/>
+</head>
+
+<html>
+    <body>
+        <div class='tester'>
+            This is my tester element
+        </div>
+    </body>
+</html>
