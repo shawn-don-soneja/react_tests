@@ -1,5 +1,2 @@
-function testMe(){
-   var body = document.getElementsByTagName("BODY")[0];
-   body.innerHTML = 'HAHAHA';
-}
-testMe();
+var tester = document.getElementById("testMe");
+tester.onClick = function(){document.getElementById("testMe").style.fontSize = '30px';};
