@@ -199,8 +199,8 @@ print($navBody);
   <div class='container computer'>
     <div class='itemMid background flexCenter'>
       <div class='container' style='width:89%;border:0px solid red;'>
-      <h1 style='animation:fadeIn 0.7s 0s ease-in forwards;opacity:0;color:rgb(255,0,0)'>Test</h1>
-      <h2 style='animation:fadeIn 0.9s 0.0s ease-in forwards;opacity:0;'>Test</h2>
+      <h1 style='animation:fadeIn 0.7s 0s ease-in forwards;opacity:0;color:rgb(255,0,0)'>Enabling a modernized digital workforce </h1>
+      <h2 style='animation:fadeIn 0.9s 0.0s ease-in forwards;opacity:0;'>We build interactive non technical skills assessments that enable organizations to identify high performing talent for the digital world</h2>
       <a style='text-decoration:none;' href='/Sign_Up/index.php'><div class='getStarted pushTop' style='cursor:pointer'>Get Started</div></a>
       <div class='IE_Correction'><div style='margin-bottom:25%;'></div></div>
       </div>
@@ -211,6 +211,38 @@ print($navBody);
     </div>
   </div>
 </div>
+
+<!--this row needs a background-->
+<div class='row flexCenter centerTitle' style='background:url("https://cdn.pixabay.com/photo/2016/02/19/11/19/office-1209640_960_720.jpg");background-size: cover;background-position: center;position:relative'>
+  <div style='height:100%;width:100%;background:rgba(0,0,0,0.6)' class='IE_Correction'>
+      <div class='container' style='width:70%;margin-top:170px'><h1>Cultivating high performing talent in the digital world</h1></div>
+  </div>
+  <style>
+
+  </style>
+  <div class='allBrowsersCover flexCenter' style='position:absolute;top:0;left:0;height:100%;width:100%;background:rgba(0,0,0,0.7)'>
+      <div style='border:0px solid red;width:80%;margin:auto;color:white;font-size:21px;margin-top:150px;' id='moveMobile' class='centerTitleAdjust'><h1>Cultivating high performing talent in the digital world</h1></div>
+  </div>
+  <!--center title is only for IE-->
+
+</div>
+
+<div class='row flexCenter'>
+  <style>.twoSpaceContainer .itemSmall img{max-width:90%;max-height:98%;border:1px solid gray;}</style>
+  <div class='twoSpaceContainer border autoMargin80'>
+    <div class='itemSmall background flexCenter'>
+      <i class="material-icons" style='font-size:125px;color:rgb(255,0,0)'>important_devices</i>
+    </div>
+    <div class='itemLarge background flexCenter'>
+      <div class='container'>
+      <h2>Work & Technology is constantly changing</h2>
+      <h3>As technology continues to become central to how we work, the nature of work and how companies operate is constantly changing. The rapidity of this change requires companies and people to be incredibly adaptable to new technology and new working environments</h3>
+      </div>
+      <div class='IE_Correction'><br><br><br></div>
+    </div>
+  </div>
+</div>
+
 
 <div class='row' style='background:rgb(243,243,243)'>
   <h2 class='pushTop  title'>What are <span style='color:rgb(254,36,0)'>non technical skills</span></h2>
