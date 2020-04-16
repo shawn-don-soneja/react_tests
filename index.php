@@ -252,7 +252,7 @@ print($navBody);
 <div class='row flexCenter'>
   <style>.twoSpaceContainer .itemSmall img{max-width:90%;max-height:98%;border:1px solid gray;}</style>
   <div class='twoSpaceContainer border autoMargin80'>
-    <div class='itemSmall background flexCenter'>
+    <div class='itemSmall background flexCenter' style='border:0px solid gray'>
       <img src='/github/images/home_page_visual_people.png'/ >
     </div>
     <div class='itemLarge background flexCenter'>
@@ -302,7 +302,7 @@ print($navBody);
 
     <div id='how1' class='item background flexCenter'>
       <div class='container'>
-        <h2 >Create Job ID</h2>
+        <h2>Improve Decision Quality</h2>
         <i class='material-icons '>assignment_ind</i>
         <p>Improve Decision Quality</p>
       </div>
@@ -310,7 +310,7 @@ print($navBody);
     </div>
     <div id='how2' class='item background flexCenter'>
       <div class='container'>
-        <h2>Assess Talent</h2>
+        <h2>Drive Efficiencies</h2>
         <i class='material-icons '>assessment</i>
         <p>Drive Efficiencies</p>
       </div>
@@ -341,7 +341,7 @@ print($navBody);
 
 
 <div class='row flexCenter'>
-    <style>.twoSpaceContainer img{max-width:98%;max-height:98%;border:0px solid gray;}
+    <style>.twoSpaceContainer img{max-width:98%;max-height:98%;border:1px solid gray;}
     .spacer{width:100%;height:50px;}
     </style>
     <div class='spacer'></div>
