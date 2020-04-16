@@ -252,7 +252,7 @@ print($navBody);
   <style>.twoSpaceContainer .itemSmall img{max-width:90%;max-height:98%;border:1px solid gray;}</style>
   <div class='twoSpaceContainer border autoMargin80'>
     <div class='itemSmall background flexCenter'>
-      <img src='/images/home_page_visual_people.png'/ >
+      <img src='/github/images/home_page_visual_people.png'/ >
     </div>
     <div class='itemLarge background flexCenter'>
       <div class='container'>
@@ -267,7 +267,7 @@ print($navBody);
 <div class='row flexCenter'>
   <div class='twoSpaceContainer border autoMargin80'>
     <div class='itemSmall background flexCenter twoSpaceAlternate' style=''>
-        <img src='/images/assess_question.png'/ >
+        <img src='/github/images/home_page_visual_gears.png'/ >
     </div>
     <div class='itemLarge background flexCenter'>
       <div class='container'>
