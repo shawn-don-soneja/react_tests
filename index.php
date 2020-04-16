@@ -212,20 +212,6 @@ print($navBody);
   </div>
 </div>
 
-<!--this row needs a background-->
-<div class='row flexCenter centerTitle' style='background:url("https://cdn.pixabay.com/photo/2016/02/19/11/19/office-1209640_960_720.jpg");background-size: cover;background-position: center;position:relative'>
-  <div style='height:100%;width:100%;background:rgba(0,0,0,0.6)' class='IE_Correction'>
-      <div class='container' style='width:70%;margin-top:170px'><h1>Cultivating high performing talent in the digital world</h1></div>
-  </div>
-  <style>
-
-  </style>
-  <div class='allBrowsersCover flexCenter' style='position:absolute;top:0;left:0;height:100%;width:100%;background:rgba(0,0,0,0.7)'>
-      <div style='border:0px solid red;width:80%;margin:auto;color:white;font-size:21px;margin-top:150px;' id='moveMobile' class='centerTitleAdjust'><h1>Cultivating high performing talent in the digital world</h1></div>
-  </div>
-  <!--center title is only for IE-->
-
-</div>
 
 <div class='row flexCenter'>
   <style>.twoSpaceContainer .itemSmall img{max-width:90%;max-height:98%;border:1px solid gray;}</style>
@@ -239,6 +225,25 @@ print($navBody);
       <h3>As technology continues to become central to how we work, the nature of work and how companies operate is constantly changing. The rapidity of this change requires companies and people to be incredibly adaptable to new technology and new working environments</h3>
       </div>
       <div class='IE_Correction'><br><br><br></div>
+    </div>
+  </div>
+</div>
+
+<style>.lessOpaqueBlack{color:rgba(0,0,0,0.7);}</style>
+<div class='row flexCenter'>
+  <div class='twoSpaceContainer border autoMargin80'>
+    <div class='itemSmall background flexCenter twoSpaceAlternate' style=''>
+      <i class="material-icons lessOpaqueBlack" style='font-size:125px;'>broken_image</i>
+    </div>
+    <div class='itemLarge background flexCenter'>
+      <div class='container'>
+      <h2>The Fragility of Talent</h2>
+      <h3>Many companies lack the talent mechanisms to keep up with the rate and significance of this change, and so as the pace of change continues to accelerate, people are becoming increasingly more susceptible to an inability to evolve with evolving technology. </h3>
+      </div>
+      <div class='IE_Correction'><br><br><br></div>
+    </div>
+    <div class='itemSmall background flexCenter twoSpaceMain'>
+      <i class="material-icons lessOpaqueBlack" style='font-size:125px;'>broken_image</i>
     </div>
   </div>
 </div>
