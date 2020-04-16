@@ -278,7 +278,7 @@ print($navBody);
       <div class='IE_Correction'><br><br><br></div>
     </div>
     <div class='itemSmall background flexCenter twoSpaceMain'>
-      <img src='/images/assess_question.png'/ >
+      <img src='/github/images/home_page_visual_gears.png'/ >
     </div>
   </div>
 </div>
@@ -304,7 +304,7 @@ print($navBody);
       <div class='container'>
         <h2 >Create Job ID</h2>
         <i class='material-icons '>assignment_ind</i>
-        <p>Design ideal candidate profiles for each job you hire for with our Job ID tool</p>
+        <p>Improve Decision Quality</p>
       </div>
       <div class='IE_Correction'><div style='margin-bottom:60px'></div></div>
     </div>
@@ -312,13 +312,13 @@ print($navBody);
       <div class='container'>
         <h2>Assess Talent</h2>
         <i class='material-icons '>assessment</i>
-        <p>Distribute assessments for candidates to take on their own time </p>
+        <p>Drive Efficiencies</p>
       </div>
       <div class='IE_Correction'><div style='margin-bottom:60px'></div></div>
     </div>
     <div id='how1' class='item background flexCenter'>
       <div class='container'>
-        <h2>Receive Report</h2>
+        <h2>Optimize Performance</h2>
         <i class='material-icons '>library_books</i>
         <p>Once they finish, you'll get a fully personalized competency report</p>
       </div>
@@ -326,7 +326,7 @@ print($navBody);
     </div>
     <div id='how2' class='item background flexCenter'>
       <div class='container'>
-        <h2>Make Decisions</h2>
+        <h2>Minimize selection bias</h2>
         <i class='material-icons '>how_to_reg</i>
         <p>Use the candidates competency report to inform critical decisions</p>
       </div>
@@ -341,7 +341,7 @@ print($navBody);
 
 
 <div class='row flexCenter'>
-    <style>.twoSpaceContainer img{max-width:98%;max-height:98%;border:1px solid gray;}
+    <style>.twoSpaceContainer img{max-width:98%;max-height:98%;border:0px solid gray;}
     .spacer{width:100%;height:50px;}
     </style>
     <div class='spacer'></div>
@@ -358,6 +358,7 @@ print($navBody);
     <div class='spacer'></div>
 </div>
 
+<!--
 <div class='row' style='background:rgb(250,251,252);'>
   <h2 class='pushTop  title'>Drive <span style='color:rgb(254,36,0)'>Results</span></h2>
   <h3 class='subTitle'>Achieve Real Business Outcomes</h3>
@@ -365,6 +366,7 @@ print($navBody);
     <img src='images/secondVisualNew.png' width='100%' style='margin-top:-5px;' id='firstVisual_Home'/>
   </div>
 </div>
+-->
 
 <!--resources (featured)-->
 <style>
