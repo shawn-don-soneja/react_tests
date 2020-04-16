@@ -16,7 +16,7 @@ there must be something else though
 
 
 window.onload = function () {
-    document.getElementById("testTwo").style.background = 'yellow';
+    document.getElementById("testTwo").style.background = 'purple';
 };
 
 function myFunction(arg){
