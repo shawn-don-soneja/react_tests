@@ -253,7 +253,7 @@ print($navBody);
   <style>.twoSpaceContainer .itemSmall img{max-width:90%;max-height:98%;border:1px solid gray;}</style>
   <div class='twoSpaceContainer border autoMargin80'>
     <div class='itemSmall background flexCenter' style='border:0px solid gray'>
-      <img src='/github/images/home_page_visual_people.png'/ >
+      <img src='/github/images/home_page_visual_people.png' style='border:0px solid gray'/ >
     </div>
     <div class='itemLarge background flexCenter'>
       <div class='container'>

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <?php
 /*
-    This block of code, from the beginning to end of this php tag does the following: 
+    This block of code, from the beginning to end of this php tag does the following:
     1. Updates link to HTTPS
     2. Connects to MySQL Database -- defines the functions, then runs them w/ credentials
-    3. Prepares these general page elements: Navigation Bar, Blogs, Footer 
-    
-    Author: 
+    3. Prepares these general page elements: Navigation Bar, Blogs, Footer
+
+    Author:
     Shawn Soneja
-    
+
     11/5/2019
 */
 
@@ -30,10 +30,10 @@ function OpenCon()
  $dbpass = "Zendera1!";
  $db = "u782434760_hex";
  $conn = new mysqli($dbhost, $dbuser, $dbpass,$db) or die("Connect failed: %s\n". $conn -> error);
- 
+
  return $conn;
  }
- 
+
 function CloseCon($conn)
  {
  $conn -> close();
@@ -52,12 +52,12 @@ if ($conn->connect_error) {
 
 
 
-//QUERIES ------------------------------------ 
+//QUERIES ------------------------------------
 
 
 //======== Query 1
 
-//Query statement 
+//Query statement
 $sql = "SELECT * FROM `Blog`";
 
 //Query output
@@ -72,34 +72,34 @@ $featuredResources = array();
 
 //Iterate over your output if there's data
 if ($result->num_rows > 0) {
-    
+
     //data of each row
     while($row = $result->fetch_assoc()) {
         //captures 4 'fields' on object
         $resourceContainer["resourceImg"] = $row["Images"];
         $resourceContainer["resourceDesc"] = $row["Description"];
-        $resourceContainer["resourceTitle"] = $row["Title"]; 
+        $resourceContainer["resourceTitle"] = $row["Title"];
         $resourceContainer["resourceLink"] = $row["Link"];
         $resourceContainer["resourceFeat"] = $row["Featured"];
         array_push($finalResources,$resourceContainer);
-        
+
         //grabbing featured resources
         if($row["Featured"] == "Y"){
             array_push($featuredResources,$resourceContainer);
         }
     }
-    
+
 } else {
     echo "0 results";
 }
 
 
 
-//========== Query 2 
+//========== Query 2
 
 
 
-//Query statement 
+//Query statement
 $sql2 = "SELECT * FROM `WebsiteElements`";
 
 //Query output
@@ -120,19 +120,19 @@ $footer="";
 
 //Iterate over your output if there's data
 if ($result2->num_rows > 0) {
-    
+
     //data of each row
     while($row = $result2->fetch_assoc()) {
         //captures 4 'fields' on object
         /*
         $transitContainer["elId"] = $row["Identifier"];
         $transitContainer["elCategory"] = $row["Category"];
-        $transitContainer["elContent"] = $row["Content"]; 
+        $transitContainer["elContent"] = $row["Content"];
         $transitContainer["elDesc"] = $row["Description"];
         array_push($elementsContainer,$transitContainer);
         */
         if($row["Identifier"] == "1"){$homeLink = $row["Content"];}
-        
+
         switch ($row["Identifier"]) {
             case "1":
                 //$homeLink = $row["Content"];
@@ -148,12 +148,12 @@ if ($result2->num_rows > 0) {
                 break;
         }
     }
-    
+
 } else {
     echo "0 results";
 }
 
-//Close that connection 
+//Close that connection
 CloseCon($conn);
 ?>
 
@@ -174,17 +174,17 @@ CloseCon($conn);
   <link rel="stylesheet" href='/main/style_updated.css'/>
   -->
   <script src="/main/script_update.js"></script>
-  
 
-  
-  <!-- STYLE --> 
-  
+
+
+  <!-- STYLE -->
+
   <style>
   @media screen and (max-width:900px){
       #moveMobile{margin-top:105px !important;}
   }
   </style>
-  
+
 </head>
 
 
@@ -199,14 +199,54 @@ print($navBody);
       <div class='container' style='width:70%;margin-top:170px'><h1>Cultivating high performing talent in the digital world</h1></div>
   </div>
   <style>
-      
+
   </style>
   <div class='allBrowsersCover flexCenter' style='position:absolute;top:0;left:0;height:100%;width:100%;background:rgba(0,0,0,0.7)'>
       <div style='border:0px solid red;width:80%;margin:auto;color:white;font-size:21px;margin-top:150px;' id='moveMobile' class='centerTitleAdjust'><h1>Cultivating high performing talent in the digital world</h1></div>
   </div>
   <!--center title is only for IE-->
-  
+
 </div>
+
+
+
+<!-- NEW CHANGES -->
+<div class='row flexCenter'>
+  <style>.twoSpaceContainer .itemSmall img{max-width:90%;max-height:98%;border:1px solid gray;}</style>
+  <div class='twoSpaceContainer border autoMargin80'>
+    <div class='itemSmall background flexCenter' style='border:0px solid gray'>
+      <img src='/github/images/home_page_visual_people.png' style='border:0px solid gray'/ >
+    </div>
+    <div class='itemLarge background flexCenter'>
+      <div class='container'>
+      <h2>Hiring is hard!</h2>
+      <h3>We have to use the limited amount of information we can gather about a person in a short amount of time to make a judgement about their ability to do a job well. To make matters worse, the sources of information we traditionally use are often imperfect, incomplete and don’t tell the whole story about a candidate. For teams and organizations looking for a better way to hire, there’s Hexient.</h3>
+      </div>
+      <div class='IE_Correction'><br><br><br></div>
+    </div>
+  </div>
+</div>
+
+<div class='row flexCenter'>
+  <div class='twoSpaceContainer border autoMargin80'>
+    <div class='itemSmall background flexCenter twoSpaceAlternate' style=''>
+        <img src='/github/images/home_page_visual_gears.png'/ >
+    </div>
+    <div class='itemLarge background flexCenter'>
+      <div class='container'>
+      <h2>We can do better</h2>
+      <h3>Organizations make people related decisions everyday, and every one of those decisions can be improved with better information and research backed approaches to talent. Liberating access to previously unsurfaced information about talent can help companies realize untapped value and position talent operations as a source of competitive advantage. </h3>
+      </div>
+      <div class='IE_Correction'><br><br><br></div>
+    </div>
+    <div class='itemSmall background flexCenter twoSpaceMain'>
+      <img src='/github/images/home_page_visual_gears.png'/ >
+    </div>
+  </div>
+</div>
+
+
+<!-- end NEW CHANGES -->
 
 <div class='row flexCenter'>
   <style>.twoSpaceContainer .itemSmall img{max-width:90%;max-height:98%;border:1px solid gray;}</style>
@@ -268,7 +308,7 @@ print($navBody);
     <div class='itemLarge background flexCenter'>
       <div class='container'>
       <h2>High Performing Digital Talent</h2>
-      <h3>High performing digital talent is adaptable talent with the skills that complement, enable and augment technology. Conversely, great technology will be that which complements, enables and augments human capability. Great work and great companies in the digital world will be built at the intersection of high performing digital talent and technology.  
+      <h3>High performing digital talent is adaptable talent with the skills that complement, enable and augment technology. Conversely, great technology will be that which complements, enables and augments human capability. Great work and great companies in the digital world will be built at the intersection of high performing digital talent and technology.
           </h3>
       </div>
       <div class='IE_Correction'><br><br><br></div>
