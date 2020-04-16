@@ -248,6 +248,44 @@ print($navBody);
   </div>
 </div>
 
+<div class='row flexCenter'>
+  <style>.twoSpaceContainer .itemSmall img{max-width:90%;max-height:98%;border:1px solid gray;}</style>
+  <div class='twoSpaceContainer border autoMargin80'>
+    <div class='itemSmall background flexCenter'>
+      <img src='/images/home_page_visual_people.png'/ >
+    </div>
+    <div class='itemLarge background flexCenter'>
+      <div class='container'>
+      <h2>Hiring is hard!</h2>
+      <h3>We have to use the limited amount of information we can gather about a person in a short amount of time to make a judgement about their ability to do a job well. To make matters worse, the sources of information we traditionally use are often imperfect, incomplete and don’t tell the whole story about a candidate. For teams and organizations looking for a better way to hire, there’s Hexient.</h3>
+      </div>
+      <div class='IE_Correction'><br><br><br></div>
+    </div>
+  </div>
+</div>
+
+<div class='row flexCenter'>
+  <div class='twoSpaceContainer border autoMargin80'>
+    <div class='itemSmall background flexCenter twoSpaceAlternate' style=''>
+        <img src='/images/assess_question.png'/ >
+    </div>
+    <div class='itemLarge background flexCenter'>
+      <div class='container'>
+      <h2>Multi Modal Assessments</h2>
+      <h3>Traditional pre employment assessments are boring, decontextualized, and cultivate a poor candidate experience. We leverage multiple assessment modalities to collect meaningful candidate data points, enhance the candidate experience, and help hiring managers reduce uncertainty about a candidates non technical skills. These modalities include self assessments, performance on a task assessments, and game based assessments.
+          </h3>
+      </div>
+      <div class='IE_Correction'><br><br><br></div>
+    </div>
+    <div class='itemSmall background flexCenter twoSpaceMain'>
+      <img src='/images/assess_question.png'/ >
+    </div>
+  </div>
+</div>
+
+
+<!--END NEW CHANGES -->
+
 
 <div class='row' style='background:rgb(243,243,243)'>
   <h2 class='pushTop  title'>What are <span style='color:rgb(254,36,0)'>non technical skills</span></h2>
