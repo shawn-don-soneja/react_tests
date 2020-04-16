@@ -212,7 +212,7 @@ print($navBody);
   </div>
 </div>
 
-
+<!--
 <div class='row flexCenter'>
   <style>.twoSpaceContainer .itemSmall img{max-width:90%;max-height:98%;border:1px solid gray;}</style>
   <div class='twoSpaceContainer border autoMargin80'>
@@ -247,6 +247,7 @@ print($navBody);
     </div>
   </div>
 </div>
+-->
 
 <div class='row flexCenter'>
   <style>.twoSpaceContainer .itemSmall img{max-width:90%;max-height:98%;border:1px solid gray;}</style>
@@ -271,9 +272,8 @@ print($navBody);
     </div>
     <div class='itemLarge background flexCenter'>
       <div class='container'>
-      <h2>Multi Modal Assessments</h2>
-      <h3>Traditional pre employment assessments are boring, decontextualized, and cultivate a poor candidate experience. We leverage multiple assessment modalities to collect meaningful candidate data points, enhance the candidate experience, and help hiring managers reduce uncertainty about a candidates non technical skills. These modalities include self assessments, performance on a task assessments, and game based assessments.
-          </h3>
+      <h2>We can do better</h2>
+      <h3>Organizations make people related decisions everyday, and every one of those decisions can be improved with better information and research backed approaches to talent. Liberating access to previously unsurfaced information about talent can help companies realize untapped value and position talent operations as a source of competitive advantage. </h3>
       </div>
       <div class='IE_Correction'><br><br><br></div>
     </div>
@@ -286,7 +286,7 @@ print($navBody);
 
 <!--END NEW CHANGES -->
 
-
+<!--
 <div class='row' style='background:rgb(243,243,243)'>
   <h2 class='pushTop  title'>What are <span style='color:rgb(254,36,0)'>non technical skills</span></h2>
   <h3 class='subTitle'>Non technical skills are the learned skills that augment an individual's performance within a specific job. We’ve synthesized these into six skill categories</h3>
@@ -294,9 +294,10 @@ print($navBody);
     <img src='images/firstVisual' width='100%' id='firstVisual_Home' style='margin-top:15px;'/>
   </div>
 </div>
+-->
 
 <div class='row'>
-  <h2 style='width:100%;border:0px solid red;text-align:center;margin-top:40px;'>How It Works</h2>
+  <h2 style='width:100%;border:0px solid red;text-align:center;margin-top:40px;'>Create value through talent</h2>
   <div class='howItWorks border autoMargin80'>
 
     <div id='how1' class='item background flexCenter'>
