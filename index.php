@@ -252,7 +252,7 @@ print($navBody);
 <div class='row flexCenter'>
   <style>.twoSpaceContainer .itemSmall img{max-width:90%;max-height:98%;border:1px solid gray;}</style>
   <div class='twoSpaceContainer border autoMargin80'>
-    <div class='itemSmall background flexCenter' style='border:0px solid gray'>
+    <div class='itemSmall background flexCenter'>
       <img src='/github/images/home_page_visual_people.png' style='border:0px solid gray'/ >
     </div>
     <div class='itemLarge background flexCenter'>
@@ -268,7 +268,7 @@ print($navBody);
 <div class='row flexCenter'>
   <div class='twoSpaceContainer border autoMargin80'>
     <div class='itemSmall background flexCenter twoSpaceAlternate' style=''>
-        <img src='/github/images/home_page_visual_gears.png'/ >
+        <img src='/github/images/home_page_visual_gears.png' style='border:0px solid gray'/ >
     </div>
     <div class='itemLarge background flexCenter'>
       <div class='container'>
@@ -278,7 +278,7 @@ print($navBody);
       <div class='IE_Correction'><br><br><br></div>
     </div>
     <div class='itemSmall background flexCenter twoSpaceMain'>
-      <img src='/github/images/home_page_visual_gears.png'/ >
+      <img src='/github/images/home_page_visual_gears.png' style='border:0px solid gray'/ >
     </div>
   </div>
 </div>

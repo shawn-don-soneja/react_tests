@@ -214,13 +214,15 @@ print($navBody);
 <div class='row flexCenter'>
   <style>.twoSpaceContainer .itemSmall img{max-width:90%;max-height:98%;border:1px solid gray;}</style>
   <div class='twoSpaceContainer border autoMargin80'>
-    <div class='itemSmall background flexCenter' style='border:0px solid gray'>
+    <div class='itemSmall background flexCenter'>
       <img src='/github/images/home_page_visual_people.png' style='border:0px solid gray'/ >
     </div>
     <div class='itemLarge background flexCenter'>
       <div class='container'>
-      <h2>Hiring is hard!</h2>
-      <h3>We have to use the limited amount of information we can gather about a person in a short amount of time to make a judgement about their ability to do a job well. To make matters worse, the sources of information we traditionally use are often imperfect, incomplete and don’t tell the whole story about a candidate. For teams and organizations looking for a better way to hire, there’s Hexient.</h3>
+      <h2>How we assess and evaluate talent is broken
+</h2>
+      <h3>How we assess and evaluate talent determines how we select, allocate and operationalize talent. Today, it’s overwhelmingly the case that talent is underselected, misallocated and inefficiently operationalized. Our traditional conception of what constitutes “talent” is often narrowly defined and flawed, or we just aren’t looking at the right measures altogether.
+</h3>
       </div>
       <div class='IE_Correction'><br><br><br></div>
     </div>
@@ -230,21 +232,86 @@ print($navBody);
 <div class='row flexCenter'>
   <div class='twoSpaceContainer border autoMargin80'>
     <div class='itemSmall background flexCenter twoSpaceAlternate' style=''>
-        <img src='/github/images/home_page_visual_gears.png'/ >
+        <img src='/github/images/home_page_visual_gears.png' style='border:0px solid gray'/ >
     </div>
     <div class='itemLarge background flexCenter'>
       <div class='container'>
-      <h2>We can do better</h2>
-      <h3>Organizations make people related decisions everyday, and every one of those decisions can be improved with better information and research backed approaches to talent. Liberating access to previously unsurfaced information about talent can help companies realize untapped value and position talent operations as a source of competitive advantage. </h3>
+      <h2>Talent is multi-faceted</h2>
+      <h3>Our belief is that talent is idiosyncratic, and people are generally uniquely excellent in ways that others aren’t. Each person possesses a unique combination of skills, traits, and abilities that collide and interact in a highly complex way to determine who they are and what they do.
+</h3>
       </div>
       <div class='IE_Correction'><br><br><br></div>
     </div>
     <div class='itemSmall background flexCenter twoSpaceMain'>
-      <img src='/github/images/home_page_visual_gears.png'/ >
+      <img src='/github/images/home_page_visual_gears.png' style='border:0px solid gray'/ >
     </div>
   </div>
 </div>
 
+<!-- between rows 2 & 3 -->
+
+<div class='row flexCenter'>
+  <style>.twoSpaceContainer .itemSmall img{max-width:90%;max-height:98%;border:1px solid gray;}</style>
+  <div class='twoSpaceContainer border autoMargin80'>
+    <div class='itemSmall background flexCenter'>
+      <img src='/github/images/home_page_visual_people.png' style='border:0px solid gray'/ >
+    </div>
+    <div class='itemLarge background flexCenter'>
+      <div class='container'>
+      <h2>Move beyond the resume </h2>
+      <h3>
+        If employers utilize better mechanisms are to cheaply certify quality talent, filter people by skill and assess top talent,
+        they can discover large groups of talent that have been overlooked by traditional measures.
+        The future of hiring goes beyond relying only on credentials and will also include hiring for skills.
+      </h3>
+      </div>
+      <div class='IE_Correction'><br><br><br></div>
+    </div>
+  </div>
+</div>
+
+<div class='row flexCenter'>
+  <div class='twoSpaceContainer border autoMargin80'>
+    <div class='itemSmall background flexCenter twoSpaceAlternate' style=''>
+        <img src='/github/images/home_page_visual_gears.png' style='border:0px solid gray'/ >
+    </div>
+    <div class='itemLarge background flexCenter'>
+      <div class='container'>
+      <h2>Personnel decisions shouldn’t be personal </h2>
+      <h3>Talent is infinitely complex, but our mental models of talent are reductively simple.
+        There’s a better way to make talent decisions, one that isn’t based solely on biased and subjective human judgement.
+        Evaluation systems should be standardized, consistent, and determined using a combination of human judgement and algorithmic
+        decision making.
+      </h3>
+      </div>
+      <div class='IE_Correction'><br><br><br></div>
+    </div>
+    <div class='itemSmall background flexCenter twoSpaceMain'>
+      <img src='/github/images/home_page_visual_gears.png' style='border:0px solid gray'/ >
+    </div>
+  </div>
+</div>
+
+<!--between rows 4 and 5 -->
+
+<div class='row flexCenter'>
+  <style>.twoSpaceContainer .itemSmall img{max-width:90%;max-height:98%;border:1px solid gray;}</style>
+  <div class='twoSpaceContainer border autoMargin80'>
+    <div class='itemSmall background flexCenter'>
+      <img src='/github/images/home_page_visual_people.png' style='border:0px solid gray'/ >
+    </div>
+    <div class='itemLarge background flexCenter'>
+      <div class='container'>
+      <h2>Talent Evaluation should improve over time </h2>
+      <h3>
+        The hiring process is something you can learn from every time. Both and bad hiring decisions should be investigated,
+        and the differences should be identified so companies can do more of what works and less of what doesn’t. 
+      </h3>
+      </div>
+      <div class='IE_Correction'><br><br><br></div>
+    </div>
+  </div>
+</div>
 
 <!-- end NEW CHANGES -->
 
