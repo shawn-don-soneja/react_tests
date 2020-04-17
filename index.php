@@ -375,7 +375,7 @@ print($navBody);
         transition:0.2s;
         min-height:250px;
         background:none;
-        margin-top:25px;
+        margin-top:0px;
         border:1px solid lightgray;
         transition:0.1s ease-out, opacity 0.1s;
         cursor:pointer;
@@ -409,7 +409,7 @@ print($navBody);
 </style>
 <div class='row' style='position:relative;height:340px'>
     <div class='rescContainer' style=''>
-        <h3>Resources</h3>
+        <h3 style='margin:'>Resources</h3>
         <?php
         //prepares a variable to add a margin if it's not the first card
         $shift = "";
