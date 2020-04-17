@@ -210,7 +210,7 @@ print($navBody);
 
 
 
-<div class='row' style='background:rgb(243,243,243);box-shadow:inset 0px 0px 8px gray'>
+<div class='row' style='background:rgb(243,243,243);box-shadow:inset 0px 0px 17px lightgray !important;'>
   <h2 class='pushTop  title'>What are <span style='color:rgb(254,36,0)'>non technical skills</span></h2>
   <h3 class='subTitle'>Non technical skills are the learned skills that augment an individual's performance within a specific job. We’ve synthesized these into six skill categories</h3>
   <div class='flexCenter border autoMargin80 pushBottom'>
