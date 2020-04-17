@@ -384,7 +384,7 @@ print($navBody);
     }
     .card h3, .card p{text-align:center;}
     .cardContainer{
-        height:340px;
+        height:240px;
         width:30%;
         float:left;
         border:0px solid red;
@@ -407,7 +407,7 @@ print($navBody);
 </style>
 <div class='row' style='position:relative;height:340px'>
     <div class='rescContainer' style=''>
-        <h3 style='margin:'>Resources</h3>
+        <h3 style='margin:0;font-size:25px;'>Resources</h3>
         <?php
         //prepares a variable to add a margin if it's not the first card
         $shift = "";
