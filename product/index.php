@@ -209,22 +209,22 @@ print($navBody);
 </div>
 
 <div class='row'>
-  <h2 style='width:100%;border:0px solid red;text-align:center;margin-top:40px;'>Create value through talent</h2>
+  <h2 style='width:100%;border:0px solid red;text-align:center;margin-top:40px;'>How it works</h2>
   <div class='howItWorks border autoMargin80'>
 
     <div id='how1' class='item background flexCenter'>
       <div class='container'>
-        <h2>Improve Decision Quality</h2>
+        <h2>Improve<br> Decision Quality</h2>
         <i class='material-icons '>assignment_ind</i>
-        <p>Improve Decision Quality</p>
+        <p>Improve Decision Quality. Example words, example words.</p>
       </div>
       <div class='IE_Correction'><div style='margin-bottom:60px'></div></div>
     </div>
     <div id='how2' class='item background flexCenter'>
       <div class='container'>
-        <h2>Drive Efficiencies</h2>
+        <h2>Drive <br>Efficiencies</h2>
         <i class='material-icons '>assessment</i>
-        <p>Drive Efficiencies</p>
+        <p>Drive Efficiencies. example words, more example words.</p>
       </div>
       <div class='IE_Correction'><div style='margin-bottom:60px'></div></div>
     </div>
@@ -238,7 +238,7 @@ print($navBody);
     </div>
     <div id='how2' class='item background flexCenter'>
       <div class='container'>
-        <h2>Minimize selection bias</h2>
+        <h2>Minimize <br>Selection Bias</h2>
         <i class='material-icons '>how_to_reg</i>
         <p>Use the candidates competency report to inform critical decisions</p>
       </div>
@@ -255,7 +255,7 @@ print($navBody);
   <h2 class='pushTop  title'>What are <span style='color:rgb(254,36,0)'>non technical skills</span></h2>
   <h3 class='subTitle'>Non technical skills are the learned skills that augment an individual's performance within a specific job. We’ve synthesized these into six skill categories</h3>
   <div class='flexCenter border autoMargin80 pushBottom'>
-    <img src='images/firstVisual' width='100%' id='firstVisual_Home' style='margin-top:15px;'/>
+    <img src='/images/firstVisual' width='100%' id='firstVisual_Home' style='margin-top:15px;'/>
   </div>
 </div>
 
@@ -282,7 +282,7 @@ print($navBody);
 <div class='row flexCenter'>
   <div class='twoSpaceContainer border autoMargin80'>
     <div class='itemSmall background flexCenter twoSpaceAlternate' style=''>
-        <img src='/images/assess_question.png'/ >
+        <img src='/github/images/product-page_team.png'/ >
     </div>
     <div class='itemLarge background flexCenter'>
       <div class='container'>
@@ -297,7 +297,7 @@ print($navBody);
       <div class='IE_Correction'><br><br><br></div>
     </div>
     <div class='itemSmall background flexCenter twoSpaceMain'>
-      <img src='/images/assess_question.png'/ >
+      <img src='/github/images/product-page_team.png'/ >
     </div>
   </div>
 </div>
