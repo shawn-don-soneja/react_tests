@@ -297,7 +297,7 @@ print($navBody);
       <div class='IE_Correction'><br><br><br></div>
     </div>
     <div class='itemSmall background flexCenter twoSpaceMain'>
-      <img src='/github/images/product-page_team.png'/ >
+      <img src='/github/images/product-page_team.png' style='border:0px solid gray'/ >
     </div>
   </div>
 </div>
@@ -321,26 +321,8 @@ print($navBody);
   </div>
 </div>
 
-<div class='row flexCenter'>
-  <div class='twoSpaceContainer border autoMargin80'>
-    <div class='itemSmall background flexCenter twoSpaceAlternate' style=''>
-        <img src='/images/assess_status.png' >
-    </div>
-    <div class='itemLarge background flexCenter'>
-      <div class='container'>
-      <h2>Personalized Job ID's</h2>
-      <h3>Different positions within different organizations require different types of talent, there is no one size fits all when it comes to candidate-organization match. We enable hiring managers and recruiters to easily identify the specific non technical skills needed for the position they're hiring for based on a variety of performance metrics specific to your organization that can be used to improve the quality of hire
-
-          </h3>
-      </div>
-      <div class='IE_Correction'><br><br><br></div>
-    </div>
-    <div class='itemSmall background flexCenter twoSpaceMain'>
-      <img src='/images/assess_status.png' >
-    </div>
-  </div>
-</div>
-
+<!--
+taken out, 4/17/2020, by shawn
 <div class='row flexCenter'>
   <div class='twoSpaceContainer border autoMargin80'>
     <div class='itemSmall background flexCenter'>
@@ -357,6 +339,28 @@ print($navBody);
     </div>
   </div>
 </div>
+-->
+<div class='row flexCenter'>
+  <div class='twoSpaceContainer border autoMargin80'>
+    <div class='itemSmall background flexCenter twoSpaceAlternate' style=''>
+        <img src='/images/topSkills.png' >
+    </div>
+    <div class='itemLarge background flexCenter'>
+      <div class='container'>
+      <h2>Data Driven Talent Decisions</h2>
+      <h3>Once candidates complete the assessment, hiring managers and recruiters will receive a simple,
+        intuitive, and comprehensive competency report highlighting the candidates competency levels for non technical skills.
+        We deliver real time actionable data to inform critical talent decisions.</h3>
+      </div>
+      <div class='IE_Correction'><br><br><br></div>
+    </div>
+    <div class='itemSmall background flexCenter twoSpaceMain'>
+      <img src='/images/topSkills.png' >
+    </div>
+  </div>
+</div>
+
+
 
 <div class='row flexCenter' style='min-height:200px;'>
   <div class='IE_Correction' style='margin-top:70px;'></div>
