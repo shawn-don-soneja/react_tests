@@ -302,17 +302,17 @@ print($navBody);
 
     <div id='how1' class='item background flexCenter'>
       <div class='container'>
-        <h2>Improve Decision Quality</h2>
+        <h2>Improve<br> Decision Quality</h2>
         <i class='material-icons '>assignment_ind</i>
-        <p>Improve Decision Quality</p>
+        <p>Improve Decision Quality. Example words, example words.</p>
       </div>
       <div class='IE_Correction'><div style='margin-bottom:60px'></div></div>
     </div>
     <div id='how2' class='item background flexCenter'>
       <div class='container'>
-        <h2>Drive Efficiencies</h2>
+        <h2>Drive <br>Efficiencies</h2>
         <i class='material-icons '>assessment</i>
-        <p>Drive Efficiencies</p>
+        <p>Drive Efficiencies. example words, more example words.</p>
       </div>
       <div class='IE_Correction'><div style='margin-bottom:60px'></div></div>
     </div>
@@ -326,7 +326,7 @@ print($navBody);
     </div>
     <div id='how2' class='item background flexCenter'>
       <div class='container'>
-        <h2>Minimize selection bias</h2>
+        <h2>Minimize <br>Selection Bias</h2>
         <i class='material-icons '>how_to_reg</i>
         <p>Use the candidates competency report to inform critical decisions</p>
       </div>
@@ -381,8 +381,6 @@ print($navBody);
         cursor:pointer;
         margin:auto;
         max-width:260px;
-        margin-top:25px;
-
     }
     .card h3, .card p{text-align:center;}
     .cardContainer{
@@ -390,7 +388,7 @@ print($navBody);
         width:30%;
         float:left;
         border:0px solid red;
-
+        background: yellow;
     }
     .rescContainer{
         /*resources container*/

@@ -208,6 +208,16 @@ print($navBody);
 
 </div>
 
+
+
+<div class='row' style='background:rgb(243,243,243)'>
+  <h2 class='pushTop  title'>What are <span style='color:rgb(254,36,0)'>non technical skills</span></h2>
+  <h3 class='subTitle'>Non technical skills are the learned skills that augment an individual's performance within a specific job. We’ve synthesized these into six skill categories</h3>
+  <div class='flexCenter border autoMargin80 pushBottom'>
+    <img src='/images/firstVisual' width='100%' id='firstVisual_Home' style='margin-top:15px;'/>
+  </div>
+</div>
+
 <div class='row'>
   <h2 style='width:100%;border:0px solid red;text-align:center;margin-top:40px;'>How it works</h2>
   <div class='howItWorks border autoMargin80'>
@@ -248,14 +258,6 @@ print($navBody);
     <div id='how3' class='item background'>Receive Report</div>
     <div id='how4' class='item background'>Assess Talent</div>
     -->
-  </div>
-</div>
-
-<div class='row' style='background:rgb(243,243,243)'>
-  <h2 class='pushTop  title'>What are <span style='color:rgb(254,36,0)'>non technical skills</span></h2>
-  <h3 class='subTitle'>Non technical skills are the learned skills that augment an individual's performance within a specific job. We’ve synthesized these into six skill categories</h3>
-  <div class='flexCenter border autoMargin80 pushBottom'>
-    <img src='/images/firstVisual' width='100%' id='firstVisual_Home' style='margin-top:15px;'/>
   </div>
 </div>
 
