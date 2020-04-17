@@ -196,16 +196,57 @@ print($navBody);
 <!--this row needs a background-->
 <div class='row flexCenter centerTitle' style='background:url("https://media-public.canva.com/MADGyLhx2qc/4/screen_2x.jpg");background-size: cover;background-position: center;position:relative'>
   <div style='height:100%;width:100%;background:rgba(0,0,0,0.7)' class='IE_Correction'>
-      <div class='container' style='width:70%;margin-top:170px'><h1>A new way to assess digital talent</h1></div>
+      <div class='container' style='width:70%;margin-top:170px'><h1>Non-technical skills</h1></div>
   </div>
   <style>
 
   </style>
   <div class='allBrowsersCover flexCenter' style='position:absolute;top:0;left:0;height:100%;width:100%;background:rgba(0,0,0,0.7)'>
-      <div style='border:0px solid red;width:80%;margin:auto;color:white;font-size:21px;margin-top:150px;' id='moveMobile' class='centerTitleAdjust'><h1>A new way to assess digital talent</h1></div>
+      <div style='border:0px solid red;width:80%;margin:auto;color:white;font-size:21px;margin-top:150px;' id='moveMobile' class='centerTitleAdjust'><h1>Non-technical skills</h1></div>
   </div>
   <!--center title is only for IE-->
 
+</div>
+
+<div id='how1' class='item background flexCenter'>
+  <div class='container'>
+    <h2>Improve Decision Quality</h2>
+    <i class='material-icons '>assignment_ind</i>
+    <p>Improve Decision Quality</p>
+  </div>
+  <div class='IE_Correction'><div style='margin-bottom:60px'></div></div>
+</div>
+<div id='how2' class='item background flexCenter'>
+  <div class='container'>
+    <h2>Drive Efficiencies</h2>
+    <i class='material-icons '>assessment</i>
+    <p>Drive Efficiencies</p>
+  </div>
+  <div class='IE_Correction'><div style='margin-bottom:60px'></div></div>
+</div>
+<div id='how1' class='item background flexCenter'>
+  <div class='container'>
+    <h2>Optimize Performance</h2>
+    <i class='material-icons '>library_books</i>
+    <p>Once they finish, you'll get a fully personalized competency report</p>
+  </div>
+  <div class='IE_Correction'><div style='margin-bottom:60px'></div></div>
+</div>
+<div id='how2' class='item background flexCenter'>
+  <div class='container'>
+    <h2>Minimize selection bias</h2>
+    <i class='material-icons '>how_to_reg</i>
+    <p>Use the candidates competency report to inform critical decisions</p>
+  </div>
+  <div class='IE_Correction'><div style='margin-bottom:60px'></div></div>
+</div>
+
+<div class='row' style='background:rgb(243,243,243)'>
+  <h2 class='pushTop  title'>What are <span style='color:rgb(254,36,0)'>non technical skills</span></h2>
+  <h3 class='subTitle'>Non technical skills are the learned skills that augment an individual's performance within a specific job. We’ve synthesized these into six skill categories</h3>
+  <div class='flexCenter border autoMargin80 pushBottom'>
+    <img src='images/firstVisual' width='100%' id='firstVisual_Home' style='margin-top:15px;'/>
+  </div>
 </div>
 
 <div class='row flexCenter'>

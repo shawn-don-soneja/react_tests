@@ -201,7 +201,7 @@ print($navBody);
       <div class='container' style='width:89%;border:0px solid red;'>
       <h1 style='animation:fadeIn 0.7s 0s ease-in forwards;opacity:0;color:rgb(255,0,0)'>Enabling a modernized digital workforce </h1>
       <h2 style='animation:fadeIn 0.9s 0.0s ease-in forwards;opacity:0;'>We build interactive non technical skills assessments that enable organizations to identify high performing talent for the digital world</h2>
-      <a style='text-decoration:none;' href='/Sign_Up/index.php'><div class='getStarted pushTop' style='cursor:pointer'>Get Started</div></a>
+      <a style='text-decoration:none;' href='/product'><div class='getStarted pushTop' style='cursor:pointer'>Learn More</div></a>
       <div class='IE_Correction'><div style='margin-bottom:25%;'></div></div>
       </div>
 
