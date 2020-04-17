@@ -208,37 +208,47 @@ print($navBody);
 
 </div>
 
-<div id='how1' class='item background flexCenter'>
-  <div class='container'>
-    <h2>Improve Decision Quality</h2>
-    <i class='material-icons '>assignment_ind</i>
-    <p>Improve Decision Quality</p>
+<div class='row'>
+  <h2 style='width:100%;border:0px solid red;text-align:center;margin-top:40px;'>Create value through talent</h2>
+  <div class='howItWorks border autoMargin80'>
+
+    <div id='how1' class='item background flexCenter'>
+      <div class='container'>
+        <h2>Improve Decision Quality</h2>
+        <i class='material-icons '>assignment_ind</i>
+        <p>Improve Decision Quality</p>
+      </div>
+      <div class='IE_Correction'><div style='margin-bottom:60px'></div></div>
+    </div>
+    <div id='how2' class='item background flexCenter'>
+      <div class='container'>
+        <h2>Drive Efficiencies</h2>
+        <i class='material-icons '>assessment</i>
+        <p>Drive Efficiencies</p>
+      </div>
+      <div class='IE_Correction'><div style='margin-bottom:60px'></div></div>
+    </div>
+    <div id='how1' class='item background flexCenter'>
+      <div class='container'>
+        <h2>Optimize Performance</h2>
+        <i class='material-icons '>library_books</i>
+        <p>Once they finish, you'll get a fully personalized competency report</p>
+      </div>
+      <div class='IE_Correction'><div style='margin-bottom:60px'></div></div>
+    </div>
+    <div id='how2' class='item background flexCenter'>
+      <div class='container'>
+        <h2>Minimize selection bias</h2>
+        <i class='material-icons '>how_to_reg</i>
+        <p>Use the candidates competency report to inform critical decisions</p>
+      </div>
+      <div class='IE_Correction'><div style='margin-bottom:60px'></div></div>
+    </div>
+    <!--
+    <div id='how3' class='item background'>Receive Report</div>
+    <div id='how4' class='item background'>Assess Talent</div>
+    -->
   </div>
-  <div class='IE_Correction'><div style='margin-bottom:60px'></div></div>
-</div>
-<div id='how2' class='item background flexCenter'>
-  <div class='container'>
-    <h2>Drive Efficiencies</h2>
-    <i class='material-icons '>assessment</i>
-    <p>Drive Efficiencies</p>
-  </div>
-  <div class='IE_Correction'><div style='margin-bottom:60px'></div></div>
-</div>
-<div id='how1' class='item background flexCenter'>
-  <div class='container'>
-    <h2>Optimize Performance</h2>
-    <i class='material-icons '>library_books</i>
-    <p>Once they finish, you'll get a fully personalized competency report</p>
-  </div>
-  <div class='IE_Correction'><div style='margin-bottom:60px'></div></div>
-</div>
-<div id='how2' class='item background flexCenter'>
-  <div class='container'>
-    <h2>Minimize selection bias</h2>
-    <i class='material-icons '>how_to_reg</i>
-    <p>Use the candidates competency report to inform critical decisions</p>
-  </div>
-  <div class='IE_Correction'><div style='margin-bottom:60px'></div></div>
 </div>
 
 <div class='row' style='background:rgb(243,243,243)'>
