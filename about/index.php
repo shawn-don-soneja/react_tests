@@ -215,7 +215,7 @@ print($navBody);
   <style>.twoSpaceContainer .itemSmall img{max-width:90%;max-height:98%;border:1px solid gray;}</style>
   <div class='twoSpaceContainer border autoMargin80'>
     <div class='itemSmall background flexCenter'>
-      <img src='/github/images/home_page_visual_people.png' style='border:0px solid gray'/ >
+      <img src='/github/images/about_page_visual_climb.png' style='border:0px solid gray'/ >
     </div>
     <div class='itemLarge background flexCenter'>
       <div class='container'>
@@ -232,7 +232,7 @@ print($navBody);
 <div class='row flexCenter'>
   <div class='twoSpaceContainer border autoMargin80'>
     <div class='itemSmall background flexCenter twoSpaceAlternate' style=''>
-        <img src='/github/images/home_page_visual_gears.png' style='border:0px solid gray'/ >
+        <img src='/github/images/about_page_visual_building.png' style='border:0px solid gray'/ >
     </div>
     <div class='itemLarge background flexCenter'>
       <div class='container'>
@@ -243,7 +243,7 @@ print($navBody);
       <div class='IE_Correction'><br><br><br></div>
     </div>
     <div class='itemSmall background flexCenter twoSpaceMain'>
-      <img src='/github/images/home_page_visual_gears.png' style='border:0px solid gray'/ >
+      <img src='/github/images/about_page_visual_building.png' style='border:0px solid gray'/ >
     </div>
   </div>
 </div>
@@ -254,7 +254,7 @@ print($navBody);
   <style>.twoSpaceContainer .itemSmall img{max-width:90%;max-height:98%;border:1px solid gray;}</style>
   <div class='twoSpaceContainer border autoMargin80'>
     <div class='itemSmall background flexCenter'>
-      <img src='/github/images/home_page_visual_people.png' style='border:0px solid gray'/ >
+      <img src='/github/images/about_page_visual_desk.png' style='border:0px solid gray'/ >
     </div>
     <div class='itemLarge background flexCenter'>
       <div class='container'>
@@ -273,7 +273,7 @@ print($navBody);
 <div class='row flexCenter'>
   <div class='twoSpaceContainer border autoMargin80'>
     <div class='itemSmall background flexCenter twoSpaceAlternate' style=''>
-        <img src='/github/images/home_page_visual_gears.png' style='border:0px solid gray'/ >
+        <img src='/github/images/about_page_visual_bulb.png' style='border:0px solid gray'/ >
     </div>
     <div class='itemLarge background flexCenter'>
       <div class='container'>
@@ -287,7 +287,7 @@ print($navBody);
       <div class='IE_Correction'><br><br><br></div>
     </div>
     <div class='itemSmall background flexCenter twoSpaceMain'>
-      <img src='/github/images/home_page_visual_gears.png' style='border:0px solid gray'/ >
+      <img src='/github/images/about_page_visual_bulb.png' style='border:0px solid gray'/ >
     </div>
   </div>
 </div>
@@ -298,14 +298,14 @@ print($navBody);
   <style>.twoSpaceContainer .itemSmall img{max-width:90%;max-height:98%;border:1px solid gray;}</style>
   <div class='twoSpaceContainer border autoMargin80'>
     <div class='itemSmall background flexCenter'>
-      <img src='/github/images/home_page_visual_people.png' style='border:0px solid gray'/ >
+      <img src='/github/images/about_page_visual_screen.png' style='border:0px solid gray'/ >
     </div>
     <div class='itemLarge background flexCenter'>
       <div class='container'>
       <h2>Talent Evaluation should improve over time </h2>
       <h3>
         The hiring process is something you can learn from every time. Both and bad hiring decisions should be investigated,
-        and the differences should be identified so companies can do more of what works and less of what doesn’t. 
+        and the differences should be identified so companies can do more of what works and less of what doesn’t.
       </h3>
       </div>
       <div class='IE_Correction'><br><br><br></div>
