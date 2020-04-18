@@ -249,7 +249,7 @@ print($navBody);
 </div>
 -->
 
-<div class='row flexCenter' style='height:350px;background:linear-gradient(45deg, white, rgb(240,240,240));'>
+<div class='row flexCenter' style='height:350px;background:linear-gradient(135deg, white 80%, rgb(240,240,240));'>
   <style>.twoSpaceContainer .itemSmall img{max-width:90%;max-height:98%;border:1px solid gray;}</style>
   <div class='twoSpaceContainer border autoMargin80'>
     <div class='itemSmall background flexCenter'>
@@ -406,7 +406,7 @@ print($navBody);
     }
     .card h3{padding:10px;padding-top:0px;}
 </style>
-<div class='row' style='position:relative;height:400px'>
+<div class='row' style='position:relative;height:390px'>
     <div class='rescContainer' style=''>
         <h3 style='margin:22px;font-size:25px;'>Resources</h3>
         <?php
