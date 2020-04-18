@@ -249,7 +249,7 @@ print($navBody);
 </div>
 -->
 
-<div class='row flexCenter'>
+<div class='row flexCenter' style='height:350px;background:linear-gradient(45deg, white, rgb(240,240,240));'>
   <style>.twoSpaceContainer .itemSmall img{max-width:90%;max-height:98%;border:1px solid gray;}</style>
   <div class='twoSpaceContainer border autoMargin80'>
     <div class='itemSmall background flexCenter'>
