@@ -183,7 +183,13 @@ CloseCon($conn);
   @media screen and (max-width:900px){
       #moveMobile{margin-top:122px !important;}
   }
+  @keyframes fadeIn{
+      0%{opacity:0;}
+      100%{opacity:1;}
+  }
+  #animateMe{animation: fadeIn 0.7s 0s ease-in forwards;opacity:0;color:rgb(255,0,0)}
   </style>
+
 
 </head>
 
@@ -198,7 +204,7 @@ print($navBody);
 <!--this row needs a background-->
 <div class='row flexCenter centerTitle' style='background:url("https://media-public.canva.com/MADGyLhx2qc/4/screen_2x.jpg");background-size: cover;background-position: center;position:relative'>
   <div style='height:100%;width:100%;background:rgba(0,0,0,0.7)' class='IE_Correction'>
-      <div class='container' style='width:70%;margin-top:170px'><h1>Non-technical skills</h1></div>
+      <div class='container' id='animateMe' style='width:70%;margin-top:170px'><h1>Non-technical skills</h1></div>
   </div>
   <style>
 

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <?php
 /*
-    This block of code, from the beginning to end of this php tag does the following: 
+    This block of code, from the beginning to end of this php tag does the following:
     1. Updates link to HTTPS
     2. Connects to MySQL Database -- defines the functions, then runs them w/ credentials
-    3. Prepares these general page elements: Navigation Bar, Blogs, Footer 
-    
-    Author: 
+    3. Prepares these general page elements: Navigation Bar, Blogs, Footer
+
+    Author:
     Shawn Soneja
-    
+
     11/5/2019
 */
 
@@ -30,10 +30,10 @@ function OpenCon()
  $dbpass = "Zendera1!";
  $db = "u782434760_hex";
  $conn = new mysqli($dbhost, $dbuser, $dbpass,$db) or die("Connect failed: %s\n". $conn -> error);
- 
+
  return $conn;
  }
- 
+
 function CloseCon($conn)
  {
  $conn -> close();
@@ -52,12 +52,12 @@ if ($conn->connect_error) {
 
 
 
-//QUERIES ------------------------------------ 
+//QUERIES ------------------------------------
 
 
 //======== Query 1
 
-//Query statement 
+//Query statement
 $sql = "SELECT * FROM `Blog`";
 
 //Query output
@@ -72,34 +72,34 @@ $featuredResources = array();
 
 //Iterate over your output if there's data
 if ($result->num_rows > 0) {
-    
+
     //data of each row
     while($row = $result->fetch_assoc()) {
         //captures 4 'fields' on object
         $resourceContainer["resourceImg"] = $row["Images"];
         $resourceContainer["resourceDesc"] = $row["Description"];
-        $resourceContainer["resourceTitle"] = $row["Title"]; 
+        $resourceContainer["resourceTitle"] = $row["Title"];
         $resourceContainer["resourceLink"] = $row["Link"];
         $resourceContainer["resourceFeat"] = $row["Featured"];
         array_push($finalResources,$resourceContainer);
-        
+
         //grabbing featured resources
         if($row["Featured"] == "Y"){
             array_push($featuredResources,$resourceContainer);
         }
     }
-    
+
 } else {
     echo "0 results";
 }
 
 
 
-//========== Query 2 
+//========== Query 2
 
 
 
-//Query statement 
+//Query statement
 $sql2 = "SELECT * FROM `WebsiteElements`";
 
 //Query output
@@ -120,19 +120,19 @@ $footer="";
 
 //Iterate over your output if there's data
 if ($result2->num_rows > 0) {
-    
+
     //data of each row
     while($row = $result2->fetch_assoc()) {
         //captures 4 'fields' on object
         /*
         $transitContainer["elId"] = $row["Identifier"];
         $transitContainer["elCategory"] = $row["Category"];
-        $transitContainer["elContent"] = $row["Content"]; 
+        $transitContainer["elContent"] = $row["Content"];
         $transitContainer["elDesc"] = $row["Description"];
         array_push($elementsContainer,$transitContainer);
         */
         if($row["Identifier"] == "1"){$homeLink = $row["Content"];}
-        
+
         switch ($row["Identifier"]) {
             case "1":
                 //$homeLink = $row["Content"];
@@ -148,12 +148,12 @@ if ($result2->num_rows > 0) {
                 break;
         }
     }
-    
+
 } else {
     echo "0 results";
 }
 
-//Close that connection 
+//Close that connection
 CloseCon($conn);
 ?>
 
@@ -174,15 +174,19 @@ CloseCon($conn);
   <link rel="stylesheet" href='/main/style_updated.css'/>
   -->
   <script src="/main/script_update.js"></script>
-  
 
-  
-  <!-- STYLE --> 
-  
+
+
+  <!-- STYLE -->
+
   <style>
-     
+  @keyframes fadeIn{
+      0%{opacity:0;}
+      100%{opacity:1;}
+  }
+  #animateMe{animation: fadeIn 0.7s 0s ease-in forwards;opacity:0;color:rgb(255,0,0)}
   </style>
-  
+
 </head>
 
 
@@ -208,7 +212,7 @@ print($navBody);
         print("</div></a>");
         print("<a href='/Sign_In/index.php'><div class='navLinkRight flexCenter' style='color:rgb(70,132,153);'>Sign In</div></a>");
     print("</nav>");
-    
+
     print("<div id='mobileMenu'>");
         print("<div class='mobLink'></div>");
         print("<div class='mobLink flexCenter'><a href=''>Home</a></div>");
@@ -217,23 +221,23 @@ print($navBody);
         print("<div class='mobLink flexCenter'>Resources</div>");
         print("<div class='mobLink flexCenter'>Sign In</div>");
     print("</div>");
-    
+
 */
-    
+
 ?>
 <!--this row needs a background-->
 <div class='row flexCenter centerTitle' style='background:url("https://media-public.canva.com/MADGvh21GdQ/7/screen_2x.jpg");background-size: cover;background-position: center;position:relative'>
   <div style='height:100%;width:100%;background:rgba(0,0,0,0.7)' class='IE_Correction'>
-      <div class='container' style='width:70%;margin-top:170px'><h1>Resources</h1></div>
+      <div class='container' id='animateMe' style='width:70%;margin-top:170px'><h1>Resources</h1></div>
   </div>
   <style>
-      
+
   </style>
   <div class='allBrowsersCover flexCenter' style='position:absolute;top:0;left:0;height:100%;width:100%;background:rgba(0,0,0,0.7)'>
       <div style='border:0px solid red;width:80%;margin:auto;color:white;font-size:21px;margin-top:150px;' class='centerTitleAdjust'><h1>Resources</h1></div>
   </div>
   <!--center title is only for IE-->
-  
+
 </div>
 <!--resources (featured)-->
 <style>
@@ -249,7 +253,7 @@ print($navBody);
         margin:auto;
         max-width:260px;
         margin-top:25px;
-        
+
     }
     .card h3, .card p{text-align:center;}
     .cardContainer{
@@ -257,7 +261,7 @@ print($navBody);
         width:30%;
         float:left;
         border:0px solid red;
-        
+
     }
     .rescContainer{
         /*resources container*/
@@ -287,18 +291,18 @@ print($navBody);
                     print("<div class='cardContainer".$shift."'>");
                         print("<div class='card'>");
                             print("<div class='cardImg' style='background-size: cover;background-position: center;background-image:url(");
-            
+
                             print($featuredResources[$q]["resourceImg"]);
-                            
+
                             print(")'>");
                             print("</div>");//close 'cardImg'
-                            
+
                             print("<h3>".$featuredResources[$q]["resourceTitle"]."</h3>");
                             print("<p>".$featuredResources[$q]["resourceDesc"]."</p>");
-                            
+
                         print("</div>");//close 'card'
                     print("</div>");//close 'cardContainer'
-                print("</a>");//close 'blogItem'    
+                print("</a>");//close 'blogItem'
             }
         ?>
     </div>
