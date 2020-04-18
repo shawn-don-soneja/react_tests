@@ -339,7 +339,7 @@ print($navBody);
   </div>
 </div>
 
-
+<!--
 <div class='row flexCenter'>
     <style>.twoSpaceContainer img{max-width:98%;max-height:98%;border:1px solid gray;}
     .spacer{width:100%;height:50px;}
@@ -357,6 +357,7 @@ print($navBody);
     </div>
     <div class='spacer'></div>
 </div>
+-->
 
 <!--
 <div class='row' style='background:rgb(250,251,252);'>
