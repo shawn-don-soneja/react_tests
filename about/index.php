@@ -304,7 +304,7 @@ print($navBody);
       <div class='container'>
       <h2>Talent Evaluation should improve over time </h2>
       <h3>
-        The hiring process is something you can learn from every time. Both and bad hiring decisions should be investigated,
+        The hiring process is something you can learn from every time. Both good and bad hiring decisions should be investigated,
         and the differences should be identified so companies can do more of what works and less of what doesn’t.
       </h3>
       </div>

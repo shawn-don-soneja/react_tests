@@ -200,7 +200,7 @@ print($navBody);
     <div class='itemMid background flexCenter'>
       <div class='container' style='width:89%;border:0px solid red;'>
       <h1 style='animation:fadeIn 0.7s 0s ease-in forwards;opacity:0;color:rgb(255,0,0)'>Enabling a modernized digital workforce </h1>
-      <h2 style='animation:fadeIn 0.9s 0.0s ease-in forwards;opacity:0;'>We build interactive non technical skills assessments that enable organizations to identify high performing talent for the digital world</h2>
+      <h2 style='animation:fadeIn 0.9s 0.0s ease-in forwards;opacity:0;'>We build non technical skills assessments that enable organizations to identify high performing talent for the digital world</h2>
       <a style='text-decoration:none;' href='/product'><div class='getStarted pushTop' style='cursor:pointer'>Learn More</div></a>
       <div class='IE_Correction'><div style='margin-bottom:25%;'></div></div>
       </div>
@@ -302,23 +302,23 @@ print($navBody);
 
     <div id='how1' class='item background flexCenter'>
       <div class='container'>
-        <h2>Improve<br> Decision Quality</h2>
+        <h2 >Create Job ID</h2>
         <i class='material-icons '>assignment_ind</i>
-        <p>Improve Decision Quality. Example words, example words.</p>
+        <p>Design ideal candidate profiles for each job you hire for with our Job ID tool</p>
       </div>
       <div class='IE_Correction'><div style='margin-bottom:60px'></div></div>
     </div>
     <div id='how2' class='item background flexCenter'>
       <div class='container'>
-        <h2>Drive <br>Efficiencies</h2>
+        <h2>Assess Talent</h2>
         <i class='material-icons '>assessment</i>
-        <p>Drive Efficiencies. example words, more example words.</p>
+        <p>Distribute assessments for candidates to take on their own time </p>
       </div>
       <div class='IE_Correction'><div style='margin-bottom:60px'></div></div>
     </div>
     <div id='how1' class='item background flexCenter'>
       <div class='container'>
-        <h2>Optimize Performance</h2>
+        <h2>Receive Report</h2>
         <i class='material-icons '>library_books</i>
         <p>Once they finish, you'll get a fully personalized competency report</p>
       </div>
@@ -326,7 +326,7 @@ print($navBody);
     </div>
     <div id='how2' class='item background flexCenter'>
       <div class='container'>
-        <h2>Minimize <br>Selection Bias</h2>
+        <h2>Make Decisions</h2>
         <i class='material-icons '>how_to_reg</i>
         <p>Use the candidates competency report to inform critical decisions</p>
       </div>
