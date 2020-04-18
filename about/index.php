@@ -183,8 +183,6 @@ CloseCon($conn);
   @media screen and (max-width:900px){
       #moveMobile{margin-top:105px !important;}
   }
-  </style>
-  <style>
   @keyframes fadeIn{
       0%{opacity:0;}
       100%{opacity:1;}
@@ -204,7 +202,7 @@ print($navBody);
 <div class='row flexCenter centerTitle' style='background:url("https://cdn.pixabay.com/photo/2016/02/19/11/19/office-1209640_960_720.jpg");background-size: cover;background-position: center;position:relative'>
   <div style='height:100%;width:100%;background:rgba(0,0,0,0.6)' class='IE_Correction'>
       <div class='container' id='animateMe' style='width:70%;margin-top:170px;'>
-      <h1 style='animation:fadeIn 0.7s 0s ease-in forwards;opacity:0;color:rgb(255,0,0);'>Cultivating high performing talent in the digital world</h1></div>
+      <h1 style='animation:fadeIn 0.7s 0s ease-in forwards;opacity:0;'>Cultivating high performing talent in the digital world</h1></div>
   </div>
   <style>
 
