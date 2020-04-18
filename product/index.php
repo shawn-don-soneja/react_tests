@@ -193,6 +193,8 @@ CloseCon($conn);
 <?php
 print($navBody);
 ?>
+
+
 <!--this row needs a background-->
 <div class='row flexCenter centerTitle' style='background:url("https://media-public.canva.com/MADGyLhx2qc/4/screen_2x.jpg");background-size: cover;background-position: center;position:relative'>
   <div style='height:100%;width:100%;background:rgba(0,0,0,0.7)' class='IE_Correction'>
@@ -209,7 +211,7 @@ print($navBody);
 </div>
 
 
-
+<!--
 <div class='row' style='background:rgb(243,243,243);box-shadow:inset 0px 0px 55px lightgray !important;'>
   <h2 class='pushTop  title'>What are <span style='color:rgb(254,36,0)'>non technical skills</span></h2>
   <h3 class='subTitle'>Non technical skills are the learned skills that augment an individual's performance within a specific job. We’ve synthesized these into six skill categories</h3>
@@ -217,6 +219,8 @@ print($navBody);
     <img src='/images/firstVisual' width='100%' id='firstVisual_Home' style='margin-top:15px;'/>
   </div>
 </div>
+
+
 
 <div class='row'>
   <h2 style='width:100%;border:0px solid red;text-align:center;margin-top:40px;'>How it works</h2>
@@ -254,12 +258,9 @@ print($navBody);
       </div>
       <div class='IE_Correction'><div style='margin-bottom:60px'></div></div>
     </div>
-    <!--
-    <div id='how3' class='item background'>Receive Report</div>
-    <div id='how4' class='item background'>Assess Talent</div>
-    -->
   </div>
 </div>
+-->
 
 <div class='row flexCenter'>
   <style>.twoSpaceContainer .itemSmall img{max-width:90%;max-height:98%;border:1px solid gray;}</style>
@@ -304,19 +305,24 @@ print($navBody);
   </div>
 </div>
 
+<!-- row 3 below , NEW 4/17/2020 -->
+
 <div class='row flexCenter'>
   <style>.twoSpaceContainer .itemSmall img{max-width:80%;max-height:98%;border:2px solid lightgray;border-radius:3px;}</style>
   <div class='twoSpaceContainer border autoMargin80'>
     <div class='itemSmall background flexCenter'>
-      <img src='/images/radial.png' >
+      <img src='/github/about_page_visual_bulb.png' >
 
     </div>
     <div class='itemLarge background flexCenter'>
       <div class='container'>
-      <h2>Instant, On Demand Deployment</h2>
-      <h3>Hexient is designed to minimize friction and maximize results and convenience for HR and IT practitioners. Simple sign up, no installation, no training, and an intuitive implementation process that will have you making better hiring decisions immediately
-
-          </h3>
+      <h2>Hire with confidence</h2>
+      <h3>The development and implementation of our assessments is rooted in decades
+        of proven research in personnel selection and I/O Psychology.
+        We utilize evidence based predictors of success on the job as opposed to
+        the status quo of talent selection on the basis of dramatic misconceptions
+        about people and talent at work.
+      </h3>
       </div>
       <div class='IE_Correction'><br><br><br></div>
     </div>
@@ -345,7 +351,29 @@ taken out, 4/17/2020, by shawn
 <div class='row flexCenter'>
   <div class='twoSpaceContainer border autoMargin80'>
     <div class='itemSmall background flexCenter twoSpaceAlternate' style=''>
-        <img src='/images/topSkills.png' >
+        <img src='/images/radial.png' >
+    </div>
+    <div class='itemLarge background flexCenter'>
+      <div class='container'>
+      <h2>Instant, On Demand Deployment</h2>
+      <h3>Hexient is designed to minimize friction and maximize results and convenience for HR and IT practitioners.
+         Simple sign up, no installation, no training,
+         and an intuitive implementation process that will have you making better hiring decisions immediately</h3>
+      </div>
+      <div class='IE_Correction'><br><br><br></div>
+    </div>
+    <div class='itemSmall background flexCenter twoSpaceMain'>
+      <img src='/images/radial.png' >
+    </div>
+  </div>
+</div>
+
+<div class='row flexCenter'>
+  <style>.twoSpaceContainer .itemSmall img{max-width:80%;max-height:98%;border:2px solid lightgray;border-radius:3px;}</style>
+  <div class='twoSpaceContainer border autoMargin80'>
+    <div class='itemSmall background flexCenter'>
+      <img src='/images/topSkills.png' >
+
     </div>
     <div class='itemLarge background flexCenter'>
       <div class='container'>
@@ -356,13 +384,8 @@ taken out, 4/17/2020, by shawn
       </div>
       <div class='IE_Correction'><br><br><br></div>
     </div>
-    <div class='itemSmall background flexCenter twoSpaceMain'>
-      <img src='/images/topSkills.png' >
-    </div>
   </div>
 </div>
-
-
 
 <div class='row flexCenter' style='min-height:200px;'>
   <div class='IE_Correction' style='margin-top:70px;'></div>
