@@ -311,7 +311,7 @@ print($navBody);
   <style>.twoSpaceContainer .itemSmall img{max-width:80%;max-height:98%;border:2px solid lightgray;border-radius:3px;}</style>
   <div class='twoSpaceContainer border autoMargin80'>
     <div class='itemSmall background flexCenter'>
-      <img src='/github/about_page_visual_bulb.png' >
+      <img src='/github/images/about_page_visual_bulb.png' >
 
     </div>
     <div class='itemLarge background flexCenter'>
