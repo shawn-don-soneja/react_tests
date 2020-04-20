@@ -287,11 +287,11 @@ print($navBody);
   <style>.twoSpaceContainer .itemSmall img{max-width:90%;max-height:98%;border:1px solid gray;}</style>
   <div class='twoSpaceContainer border autoMargin80'>
     <div class='itemSmall background flexCenter'>
-      <img src='/images/db1.png' style='border:0px solid gray'/ >
+      <img src='/images/db1.png' style=''/ >
     </div>
     <div class='itemLarge background flexCenter'>
       <div class='container'>
-      <h2>Better decisions across the Human Capital Supply Chain</h2>
+      <h2>Better decisions across the human capital supply chain</h2>
       <h3>As technology continues to become central to how we work, the nature of work and
         how companies operate is constantly changing. The rapidity of this change
          requires companies and people to be incredibly adaptable to new technology and
@@ -320,33 +320,33 @@ print($navBody);
 
     <div id='how1' class='item background flexCenter'>
       <div class='container'>
-        <h2 >Create Job ID</h2>
+        <h2 >Improve Decision Quality</h2>
         <i class='material-icons '>assignment_ind</i>
-        <p>Design ideal candidate profiles for each job you hire for with our Job ID tool</p>
+        <p>Break down informational barriers about talent and generate unique insights</p>
       </div>
       <div class='IE_Correction'><div style='margin-bottom:60px'></div></div>
     </div>
     <div id='how2' class='item background flexCenter'>
       <div class='container'>
-        <h2>Assess Talent</h2>
+        <h2>Drive Efficiencies</h2>
         <i class='material-icons '>assessment</i>
-        <p>Distribute assessments for candidates to take on their own time </p>
+        <p>Streamline, automate and digitize tasks for HR and managers</p>
       </div>
       <div class='IE_Correction'><div style='margin-bottom:60px'></div></div>
     </div>
     <div id='how1' class='item background flexCenter'>
       <div class='container'>
-        <h2>Receive Report</h2>
+        <h2>Increase Fairness</h2>
         <i class='material-icons '>library_books</i>
-        <p>Once they finish, you'll get a fully personalized competency report</p>
+        <p>Discover talent that’s overlooked by traditional measures</p>
       </div>
       <div class='IE_Correction'><div style='margin-bottom:60px'></div></div>
     </div>
     <div id='how2' class='item background flexCenter'>
       <div class='container'>
-        <h2>Make Decisions</h2>
+        <h2>Optimize performance</h2>
         <i class='material-icons '>how_to_reg</i>
-        <p>Use the candidates competency report to inform critical decisions</p>
+        <p>Stimulate growth via improved productivity and employee optimization</p>
       </div>
       <div class='IE_Correction'><div style='margin-bottom:60px'></div></div>
     </div>

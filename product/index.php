@@ -204,7 +204,7 @@ print($navBody);
 <!--this row needs a background-->
 <div class='row flexCenter centerTitle' style='background:url("https://media-public.canva.com/MADGyLhx2qc/4/screen_2x.jpg");background-size: cover;background-position: center;position:relative'>
   <div style='height:100%;width:100%;background:rgba(0,0,0,0.7)' class='IE_Correction'>
-      <div class='container' id='animateMe' style='width:70%;margin-top:170px'><h1>Non-technical skills</h1></div>
+      <div class='container' id='animateMe' style='width:70%;margin-top:170px'><h1>Non-technical skills assessments</h1></div>
   </div>
   <style>
 
