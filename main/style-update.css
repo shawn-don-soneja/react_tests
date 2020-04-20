@@ -11,7 +11,7 @@
       margin:5px;
       padding:10px;
       */
-      font-weight:lighter; 
+      font-weight:lighter;
     }
     h2{color:rgba(30,30,30,0.9);}
     h3,p{
@@ -58,7 +58,7 @@
       opacity:0.6;
       border-width:0px;
     }
-    
+
     #mobileHamburger{
       border:0px solid red;
       width:60px;
@@ -102,13 +102,13 @@
       border:0px solid red;
     }
     /* END body, nav, mobile */
-    
+
     /* characteristic classes */
     .flexCenter{
       display:flex;
       align-items:center;
       justify-content:center;
-      flex-direction: column; 
+      flex-direction: column;
     }
     .leftAlign{
       text-align:left;
@@ -129,7 +129,7 @@
       border:0px dotted red;
     }
     .background{
-      
+
     }
     .center{
       text-align:center;
@@ -151,10 +151,10 @@
       border:0px solid green;
       margin:auto;
       align-self:center;
-    } 
+    }
     .row{
       /*
-      this min-height is usually overridden 
+      this min-height is usually overridden
       by element-specific code
       */
       min-height:300px;
@@ -179,7 +179,7 @@
     .getStarted:hover{background:rgb(70,132,153);transform:translate(0px,-1px);box-shadow:0px 2px 5px -2px gray;transition:0.2s;}
     :root{
       /*
-      Internet explorer doesn't suppor this! 
+      Internet explorer doesn't suppor this!
       Need to have all places with this var use
       a backup
       */
@@ -211,19 +211,19 @@
         min-height:350px;
         height:350px;
     }
-    
-    
-    
+
+
+
     /*home*/
     .fullScreenDiv{
       /*min height must be height of .computer*/
       min-height:calc(150px + var(--computerHeight));
       height:100vh;
       background:white;
-    } 
+    }
     .computer{
       max-height:var(--computerHeight);
-      height:92%; 
+      height:92%;
       /*
       var(--computerHeight)
       max-width:1100px;
@@ -235,7 +235,7 @@
     .computer .container{align-items:center;}
     .computer h1, .computer h2, .computer h3{
       /*margin:0;*/
-    
+
     }
     .computer img{
       max-width:700px;
@@ -252,7 +252,7 @@
     .howItWorks .item{
       float:left;
       width:25%;
-      
+
       height:100%;
       text-align:center;
       transition:0.2s;
@@ -275,7 +275,7 @@
     .howItWorks .item:hover .material-icons{
       color:red;
     }
-    
+
     /*about*/
     .twoSpaceContainer{
       height:250px;
@@ -308,13 +308,13 @@
       display:none;
     }
     .twoSpaceMain{}/*doesn't need to be defined here, but shows the shape / function of this mobile prep*/
-    
+
     /*product*/
-    
-    
+
+
     /*responsive code*/
     @media screen and (max-width:900px){
-      /*edits*/    
+      /*edits*/
       .title,.subTitle{margin-bottom:8px;margin-left:16px;}
       #logo{position:fixed;display:block;top:3px;border:0px solid red;max-height:50px;}
       .desktopCorrection{display:none;}
@@ -326,13 +326,13 @@
       nav{
         box-shadow:0px 0px 6px -1px gray;
       }
-      
+
       #mobileHamburger{
         display:flex;
         float:right;
       }
       .navLink,.navLinkRight{display:none;}
-      
+
       .autoMargin80{
         width:100%;
       }
@@ -361,8 +361,8 @@
       }
       .card p{display:none;}
       .card .cardImg{height:90px !important;}
-      .cardContainer .card{min-height:100px !important;margin-top:80px;max-width:170px;}
-      
+      .cardContainer .card{min-height:100px !important;max-width:170px;}
+
       /*home*/
       .itemMid{
         float:none;
@@ -371,6 +371,7 @@
         overflow:hidden;
       }
       .fullScreenDiv{
+        margin-top:15px;
         min-height:700px;
         height:135vh;
       }
@@ -380,7 +381,7 @@
         /*align-self: flex-end;
         margin-bottom: 00px;
         */
-        
+
       }
       .computer img{
         /*
@@ -421,7 +422,7 @@
       }
       .twoSpaceContainer .itemLarge{
         height:70%;
-        
+
       }
       .twoSpaceMain{
         display:none;
@@ -444,7 +445,7 @@
      .centerTitle .container{height:40%;font-size:23px;width:90% !important;color:white;border:0px solid red;}
      .flexCenter .container{align-items:center;}
      img{
-         
+
         flex-shrink: 0;
         max-width:100%;
      }

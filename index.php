@@ -320,7 +320,7 @@ print($navBody);
 
     <div id='how1' class='item background flexCenter'>
       <div class='container'>
-        <h2 >Improve Decision Quality</h2>
+        <h2 >Improve<br>Decision Quality</h2>
         <i class='material-icons '>assignment_ind</i>
         <p>Break down informational barriers about talent and generate unique insights</p>
       </div>
