@@ -249,7 +249,7 @@ print($navBody);
 </div>
 -->
 
-<div class='row flexCenter' style='height:350px;background:linear-gradient(155deg, white 60%, rgb(240,240,240));'>
+<div class='row flexCenter' style='min-height:350px;background:linear-gradient(155deg, white 60%, rgb(240,240,240));'>
   <style>.twoSpaceContainer .itemSmall img{max-width:90%;max-height:98%;border:1px solid gray;}</style>
   <div class='twoSpaceContainer border autoMargin80'>
     <div class='itemSmall background flexCenter'>
@@ -265,7 +265,7 @@ print($navBody);
   </div>
 </div>
 
-<div class='row flexCenter' style='height:350px;background:linear-gradient(-155deg, white 60%, rgb(240,240,240));'>
+<div class='row flexCenter' style='min-height:350px;background:linear-gradient(-155deg, white 60%, rgb(240,240,240));'>
   <div class='twoSpaceContainer border autoMargin80'>
     <div class='itemSmall background flexCenter twoSpaceAlternate' style=''>
         <img src='/github/images/home_page_visual_gears.png' style='border:0px solid gray'/ >
@@ -283,7 +283,7 @@ print($navBody);
   </div>
 </div>
 
-<div class='row flexCenter' style='height:350px;background:linear-gradient(155deg, white 60%, rgb(240,240,240));'>
+<div class='row flexCenter' style='min-height:350px;background:linear-gradient(155deg, white 60%, rgb(240,240,240));'>
   <style>.twoSpaceContainer .itemSmall img{max-width:90%;max-height:98%;border:1px solid gray;}</style>
   <div class='twoSpaceContainer border autoMargin80'>
     <div class='itemSmall background flexCenter'>
