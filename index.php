@@ -283,7 +283,25 @@ print($navBody);
   </div>
 </div>
 
-
+<div class='row flexCenter' style='height:350px;background:linear-gradient(155deg, white 60%, rgb(240,240,240));'>
+  <style>.twoSpaceContainer .itemSmall img{max-width:90%;max-height:98%;border:1px solid gray;}</style>
+  <div class='twoSpaceContainer border autoMargin80'>
+    <div class='itemSmall background flexCenter'>
+      <img src='/images/db1.png' style='border:0px solid gray'/ >
+    </div>
+    <div class='itemLarge background flexCenter'>
+      <div class='container'>
+      <h2>Better decisions across the Human Capital Supply Chain</h2>
+      <h3>As technology continues to become central to how we work, the nature of work and
+        how companies operate is constantly changing. The rapidity of this change
+         requires companies and people to be incredibly adaptable to new technology and
+         new working environments.
+       </h3>
+      </div>
+      <div class='IE_Correction'><br><br><br></div>
+    </div>
+  </div>
+</div>
 <!--END NEW CHANGES -->
 
 <!--
